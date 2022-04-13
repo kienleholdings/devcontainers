@@ -26,4 +26,4 @@ jobs:
         with:
           context: ./containers/typescript-node
           push: true
-          tags: docker.pkg.github.com/${{ github.repository }}/typescript-node:${{ github.sha }}
+          tags: docker.pkg.github.com/${{ github.repository }}/typescript-node:latest
