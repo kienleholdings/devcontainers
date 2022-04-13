@@ -1,4 +1,4 @@
-ARG NODE_VERSION="lts"
+ARG NODE_VERSION="16"
 # By default, we pull from the bullseye version. This is specifically to accomidate for the fact
 # that our entire dev team runs on M1 macs. This also makes sure we get any VS-Specific commands or
 # security fixes that the people much smarter than us over at Microsoft have
