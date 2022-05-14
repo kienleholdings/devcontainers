@@ -5,4 +5,4 @@ ARG NODE_VERSION="16"
 FROM mcr.microsoft.com/vscode/devcontainers/javascript-node:${NODE_VERSION}-bullseye
 
 # Our package manager of choice is pnpm, let's install that
-RUN npm install pnpm -g
+RUN npm install pnpm@7.x -g
